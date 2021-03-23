@@ -204,6 +204,6 @@ version = await lotus.LotusAPI("Version", []);
     WalletVerify: {}
 ```
 
-# Lotus APIs Params
+# Lotus API Params
 
 https://github.com/filecoin-project/lotus/blob/master/api/api_full.go
