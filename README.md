@@ -11,6 +11,8 @@ npm i filecoin-lotus-client
 const { Lotus } = require('filecoin-lotus-client');
 const lotus = new Lotus('lotus.api', 'lotus.token');
 
-const version = await lotus.Version();
+let version = await lotus.Version();
 console.log(version);
+
+version = await lotus.LotusAPI("Version", []);
 ```
